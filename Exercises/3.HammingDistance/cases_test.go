@@ -1,9 +1,5 @@
 package hamming
 
-// Source: exercism/problem-specifications
-// Commit: 4119671 Hamming: Add a tests to avoid wrong recursion solution (#1450)
-// Problem Specifications Version: 2.3.0
-
 var testCases = []struct {
 	s1          string
 	s2          string
@@ -63,5 +59,11 @@ var testCases = []struct {
 		"",
 		0,
 		true,
+	},
+	{
+		"aüa",
+		"aÃa",
+		1,
+		false,
 	},
 }
