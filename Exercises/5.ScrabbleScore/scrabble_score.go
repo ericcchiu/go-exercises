@@ -1,0 +1,5 @@
+package scrabble
+
+func Score() {
+
+}
